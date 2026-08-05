@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ /* Nav CSS */
 .navbar
 {
     display: flex;
@@ -37,4 +37,57 @@
 .nav-links a:hover {
     color: #22d3ee;
     opacity: 0.7;
+}
+
+
+/* Welcome Section Css */
+
+.dashboard
+{
+    padding: 30px;
+}
+
+.welcome-section
+{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e2e8f0;
+
+}
+
+.welcome h1
+{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.welcome p{
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.start
+{
+    background:#09576d;
+    color: #0f2027;
+    margin-top: 20px;
+    height: 35px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.start:hover
+{
+    background: #ffffff;
+    color: #203a43;
+    transform: translateY(-3px);
 }
