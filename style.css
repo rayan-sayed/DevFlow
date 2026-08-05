@@ -185,3 +185,54 @@ body {
     color: #8e9a9a;
 
 }
+
+
+/* Today Tasks Css */
+
+.today-tasks
+{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.today-tasks h2 
+{
+    margin-bottom: 20px;
+}
+
+.tasks-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.task-card
+{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3 ease;
+
+}
+
+
+.task-card:hover {
+    transform: translateX(8px);
+}
+
+.task-card h3{
+    margin: 0;
+}
+
+.task-card p{
+    margin: 0;
+    color: #8e9a9a;
+    font-size: 20px;
+}
+
