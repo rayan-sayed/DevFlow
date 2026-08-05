@@ -4,21 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasks - DevFlow</title>
+    <title>Tasks | DevFlow</title>
 
     <link rel="stylesheet" href="../style.css">
-
 </head>
 
 <body>
-
     <nav class="navbar"> 
     
     <div class="logo">DevFlow</div>
 
     <ul class="nav-links">
 
-        <li><a href="../index.html">Dashboard</a></li>
+        <li><a href="index.html">Dashboard</a></li>
          <li><a href="pages/tasks.html">Tasks</a></li>
         <li><a href="pages/projects.html">Projects</a></li>
         <li><a href="pages/roadmap.html">Roadmap</a></li>
@@ -27,11 +25,36 @@
 
 </nav>
 
-<section class="tasks-page">
-    <h1>My Tasks</h1>
-</section>
+<main class="tasks-page">
+    <section class="tasks-header">
+        <h1>My Tasks</h1>
+        <p>Manage your daily tasks with DevFlow and track your Progress</p>
+    </section>
 
+    <section class="add-task">
+        <input type="text" placeholder="Enter a new task">
+        <button>Add Task</button>
+    </section>
 
+    <section class="tasks-list">
+        <div class="task-card">
+            <h3>Finish DevFlow Dashboard</h3>
+            <p>Status: In Progress</p>
+            <div class="task-actions">
+                <button>Complete</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="task-card">
+            <h3>Practice JS</h3>
+            <p>Status: Pending</p>
+            <div class="task-actions">
+                <button>Complete</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 
 </html>
