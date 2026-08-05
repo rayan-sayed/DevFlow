@@ -317,3 +317,53 @@ body {
     background: #ef4444;
     color: white;
 }
+
+
+/*Projects page Css */
+
+.projects-page
+{
+    padding: 40px;
+    text-align: center;
+}
+
+.projects-header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.projects-header p {
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.add-project {
+    margin-bottom: 40px;
+}
+
+.add-project button{
+
+    background: #00c6ff;
+    color: #0f172a;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.add-project button:hover{
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+
+.projects-list
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
