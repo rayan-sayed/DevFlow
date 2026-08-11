@@ -318,6 +318,18 @@ body {
     color: white;
 }
 
+.task-card.completed {
+    opacity: 0.7;
+}
+
+.task-card.completed h3 {
+    text-decoration: line-through;
+}
+
+.task-card.completed p {
+    color: #22c55e;
+}
+
 
 /*Projects page Css */
 
