@@ -9,33 +9,29 @@ body {
     color: #e2e8f0;
 }
 
+/* Nav CSS */
 
- /* Nav CSS */
-.navbar
-{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 }
 
 .logo {
-
     font-size: 24px;
     font-weight: bold;
     color: #e2e8f0;
 }
 
-.nav-links
-{
+.nav-links {
     display: flex;
     list-style: none;
     gap: 30px;
-    
 }
-.nav-links a {
 
+.nav-links a {
     text-decoration: none;
     color: #e2e8f0;
     font-size: 18px;
@@ -46,16 +42,13 @@ body {
     opacity: 0.7;
 }
 
+/* Welcome Section CSS */
 
-/* Welcome Section Css */
-
-.dashboard
-{
+.dashboard {
     padding: 30px;
 }
 
-.welcome-section
-{
+.welcome-section {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     border-radius: 20px;
     padding: 40px;
@@ -63,24 +56,21 @@ body {
     align-items: center;
     justify-content: space-between;
     color: #e2e8f0;
-
 }
 
-.welcome h1
-{
+.welcome h1 {
     font-size: 40px;
     margin-bottom: 15px;
 }
 
-.welcome p{
+.welcome p {
     font-size: 18px;
     max-width: 600px;
     line-height: 1.6;
 }
 
-.start
-{
-    background:#09576d;
+.start {
+    background: #09576d;
     color: #0f2027;
     margin-top: 20px;
     height: 35px;
@@ -90,19 +80,17 @@ body {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    
 }
-.start:hover
-{
+
+.start:hover {
     background: #ffffff;
     color: #203a43;
     transform: translateY(-3px);
 }
 
-/* statistic card css */
+/* Statistic Card CSS */
 
 .stat {
- 
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -110,33 +98,28 @@ body {
 }
 
 .stat-card {
-    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #e2e8f0;
-
     padding: 25px;
     border-radius: 20px;
     flex: 1;
     text-align: center;
-    transition: 0.3 ease;
-
+    transition: 0.3s ease;
 }
 
-.stat-card:hover{
+.stat-card:hover {
     transform: translateY(-8px);
 }
 
-/* Recent Projects Css */
-
+/* Recent Projects CSS */
 
 .recent-projects {
     margin-top: 40px;
 }
 
-
 .recent-projects h2 {
     margin-bottom: 20px;
 }
-
 
 .projects-container {
     display: flex;
@@ -144,10 +127,8 @@ body {
     flex-wrap: wrap;
 }
 
-
 .project-card {
-
-    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #e2e8f0;
     padding: 25px;
     border-radius: 20px;
@@ -156,61 +137,42 @@ body {
     transition: 0.3s ease;
 }
 
-
 .project-card:hover {
-
     transform: translateY(-8px);
-
 }
-
 
 .project-card h3 {
-
     margin-bottom: 15px;
-
 }
-
 
 .project-card p {
-
     line-height: 1.6;
     margin-bottom: 15px;
-
 }
-
 
 .project-card span {
-
     font-size: 14px;
     color: #8e9a9a;
-
 }
 
+/* Today Tasks CSS */
 
-/* Today Tasks Css */
-
-.today-tasks
-{
+.today-tasks {
     margin-top: 40px;
     text-align: center;
 }
 
-.today-tasks h2 
-{
+.today-tasks h2 {
     margin-bottom: 20px;
 }
 
-.tasks-container
-{
-    
+.tasks-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-
-.task-card
-{
+.task-card {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #e2e8f0;
     padding: 20px;
@@ -218,21 +180,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
     margin: 20px;
-
 }
-
 
 .task-card:hover {
     transform: translateX(8px);
 }
 
-.task-card h3{
+.task-card h3 {
     margin: 0;
 }
 
-.task-card p{
+.task-card p {
     margin: 0;
     color: #8e9a9a;
     font-size: 20px;
@@ -240,66 +200,57 @@ body {
 
 /* Tasks Page */
 
-.tasks-page
-{
-    margin: 40px; 
+.tasks-page {
+    margin: 40px;
     text-align: center;
-
 }
 
-.tasks-header h1
-{
-    
+.tasks-header h1 {
     margin: 15px;
     font-size: 36px;
 }
 
-.tasks-header p{
-    
+.tasks-header p {
     margin-bottom: 30px;
     color: #cbd5e1;
 }
 
-.add-task
-{
+.add-task {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 15px;
     margin-bottom: 40px;
 }
-.add-task input 
-{
-   width: 300px;
-   height: 40px;
-   padding: 0 15px;
-   border: none;
-   border-radius: 20px;
-   outline: none;
-   font-size: 15px;
+
+.add-task input {
+    width: 300px;
+    height: 40px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
 }
 
-.add-task button
-{
-   height: 40px;
-   padding: 0 25px;
-   border: none;
-   border-radius: 20px;
-   background:#00c6ff;
-   color: #0f172a;
-   font-weight: bold;
-   cursor: pointer;
-   transition: 0.3 ease;
-
+.add-task button {
+    height: 40px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 20px;
+    background: #00c6ff;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-.add-task button:hover
-{
+.add-task button:hover {
     background: white;
-    transform: translate(-3px);
+    transform: translateY(-3px);
 }
 
-.task-actions button{
-    padding: 8ox 15px;
+.task-actions button {
+    padding: 8px 15px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
@@ -308,12 +259,12 @@ body {
     width: 80px;
 }
 
-.task-actions button:first-child{
-        background: #22c55e;
-        color: white;
+.task-actions button:first-child {
+    background: #22c55e;
+    color: white;
 }
 
-.task-actions button:last-child{
+.task-actions button:last-child {
     background: #ef4444;
     color: white;
 }
@@ -330,11 +281,9 @@ body {
     color: #22c55e;
 }
 
+/* Projects Page */
 
-/*Projects page Css */
-
-.projects-page
-{
+.projects-page {
     padding: 40px;
     text-align: center;
 }
@@ -353,8 +302,7 @@ body {
     margin-bottom: 40px;
 }
 
-.add-project button{
-
+.add-project button {
     background: #00c6ff;
     color: #0f172a;
     border: none;
@@ -363,38 +311,34 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease;
-
 }
 
-.add-project button:hover{
+.add-project button:hover {
     background-color: white;
     transform: translateY(-3px);
 }
 
-
-.projects-list
-{
+.projects-list {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
-
-/*Roadmap  page Css*/
+/* Roadmap Page CSS */
 
 .roadmap-page {
     padding: 40px;
-    text-align:center;
+    text-align: center;
 }
 
-.roadmap-header h1{
+.roadmap-header h1 {
     font-size: 36px;
     margin-bottom: 15px;
 }
 
-.roadmap-header p{
+.roadmap-header p {
     color: #cbd5e1;
-    margin-bottom:40px ;
+    margin-bottom: 40px;
 }
 
 .roadmap-section {
@@ -403,13 +347,12 @@ body {
     text-align: left;
 }
 
-.roadmap-section h2{
+.roadmap-section h2 {
     margin-bottom: 20px;
     color: #00c6ff;
 }
 
-.roadmap-list
-{
+.roadmap-list {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -424,46 +367,43 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
 }
 
-.roadmap-item:hover{
+.roadmap-item:hover {
     transform: translateX(8px);
 }
 
-.completed{
+.completed {
     color: #22c55e;
 }
-.progress{
+
+.progress {
     color: #00c6ff;
 }
 
-.pending{
+.pending {
     color: #94a3b8;
 }
 
+/* Notes Page CSS */
 
-/*Notes page CSS */
-
-.notes-page
-{
+.notes-page {
     padding: 40px;
     text-align: center;
 }
 
-.notes-header h1{
+.notes-header h1 {
     font-size: 36px;
     margin-bottom: 15px;
 }
 
-.notes-header 
-{
+.notes-header {
     color: #cbd5e1;
     margin-bottom: 40px;
 }
 
-.add-notes
-{
+.add-notes {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -473,21 +413,20 @@ body {
 }
 
 .add-notes input,
-.add-notes textarea{
+.add-notes textarea {
     padding: 15px;
     border: none;
     border-radius: 15px;
     outline: none;
     font-size: 15px;
-
 }
 
-.add-notes textarea{
+.add-notes textarea {
     min-height: 180px;
-    resize: vertica;
+    resize: vertical;
 }
 
-.add-notes button{
+.add-notes button {
     align-self: center;
     background: #00c6ff;
     color: #0f172a;
@@ -496,17 +435,15 @@ body {
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
-    view-transition-class: 0.3s ease;
+    transition: 0.3s ease;
 }
 
-.add-notes button:hover
-{
-    background:white;
+.add-notes button:hover {
+    background: white;
     transform: translateY(-3px);
 }
 
-.notes-list
-{
+.notes-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -514,9 +451,8 @@ body {
     margin: auto;
 }
 
-.notes-card
-{
-   background: linear-gradient(135deg, #141e30, #243b55);
+.notes-card {
+    background: linear-gradient(135deg, #141e30, #243b55);
     color: #e2e8f0;
     padding: 25px;
     border-radius: 20px;
@@ -524,33 +460,32 @@ body {
     transition: 0.3s ease;
 }
 
-.notes-card:hover{
+.notes-card:hover {
     transform: translateY(-5px);
 }
 
-.notes-card h3
-{
+.notes-card h3 {
     margin-bottom: 10px;
 }
 
-.notes-card p
-{
+.notes-card p {
     margin-bottom: 15px;
     line-height: 1.6;
 }
 
-.notes-card span{
+.notes-card span {
     color: #94a3b8;
     font-size: 14px;
 }
 
+/* Responsive */
 
-@media (max-width:768px)
-{
-    nav{
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
     }
 
     .stat {
@@ -563,53 +498,192 @@ body {
         text-align: center;
     }
 
-    .projects-list{
+    .projects-list {
         grid-template-columns: 1fr;
         width: 90%;
         margin: auto;
     }
 
-    .project-card{
+    .project-card {
         width: 100%;
         box-sizing: border-box;
     }
-    .task-card{
+
+    .task-card {
         flex-direction: column;
         gap: 15px;
         text-align: center;
     }
 
-    .task-actions{
+    .task-actions {
         justify-content: center;
     }
 
-    .add-task{
+    .add-task {
         flex-direction: column;
         align-items: center;
     }
 
-    .add-task input{
+    .add-task input {
         width: 90%;
         max-width: 400px;
     }
-    
-    .add-notes{
+
+    .add-notes {
         width: 90%;
     }
 
     .add-notes input,
-    .add-notes text-area
-    {
+    .add-notes textarea {
         width: 100%;
         box-sizing: border-box;
     }
 
-    .roadmap-item{
+    .roadmap-item {
         padding: 15px;
+    }
 
+    .roadmap-section {
+        width: 90%;
     }
-    .roadmap-section{
-        width:90%;
+
+    .projects-layout {
+        grid-template-columns: 1fr;
     }
-    
+
+    #projectFormContainer {
+        width: 100%;
+    }
+
+    #projectsList {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Projects Dynamic Form */
+
+.projects-layout {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 30px;
+    align-items: start;
+    width: 100%;
+}
+
+#projectFormContainer {
+    width: 100%;
+}
+
+.project-form {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e2e8f0;
+
+    border-radius: 20px;
+}
+
+.project-form input,
+.project-form textarea,
+.project-form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-family: inherit;
+
+    outline: none;
+}
+
+.project-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.project-form input:focus,
+.project-form textarea:focus,
+.project-form select:focus {
+    border: 2px solid #00c6ff;
+}
+
+.project-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.project-form button:first-of-type {
+    background: #00c6ff;
+    color: #0f172a;
+}
+
+.project-form button:first-of-type:hover {
+    background: white;
+}
+
+.project-form button:last-of-type {
+    background: #64748b;
+    color: white;
+}
+
+.project-form button:last-of-type:hover {
+    background: #94a3b8;
+}
+
+/* Project Buttons */
+
+.project-card button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.edit-project {
+    background: #00c6ff;
+    color: #0f172a;
+}
+
+.edit-project:hover {
+    background: white;
+}
+
+.delete-project {
+    background: #b23a48;
+    color: white;
+}
+
+.delete-project:hover {
+    background: #8f2d38;
+}
+
+
+.project-status {
+    font-weight: bold;
+}
+
+.project-status.not-started {
+    color: #94a3b8;
+}
+
+.project-status.in-progress {
+    color: #00c6ff;
+}
+
+.project-status.completed {
+    color: #22c55e;
 }
