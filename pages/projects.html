@@ -12,72 +12,65 @@
 
 </head>
 
-
 <body>
-<nav class="navbar"> 
-    
-    <div class="logo">DevFlow</div>
 
-    <ul class="nav-links">
+    <nav class="navbar">
 
-        <li><a href="../index.html">Dashboard</a></li>
-         <li><a href="tasks.html">Tasks</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="roadmap.html">Roadmap</a></li>
-        <li><a href="notes.html">Notes</a></li>
-    </ul>
+        <div class="logo">DevFlow</div>
 
-</nav>
-<main class="projects-page">
-    <section class="projects-header">
-        <h1>My Projects</h1>
-        <p>Manage your projects and track you development journey.</p>
-    </section>
+        <ul class="nav-links">
 
-    <section class="add-project">
-        <button> Add new Project</button>
-    </section>
+            <li><a href="../index.html">Dashboard</a></li>
+            <li><a href="tasks.html">Tasks</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="notes.html">Notes</a></li>
 
-    <section class="projects-list">
+        </ul>
 
-    <div class="project-card">
-
-        <h3>DevFlow</h3>
-
-        <p>
-            Developer dashboard to manage tasks,
-            projects, and learning progress.
-        </p>
-
-        <span>
-            HTML • CSS • JavaScript
-        </span>
-
-        <p>Status: In Progress</p>
-
-    </div>
+    </nav>
 
 
-    <div class="project-card">
+    <main class="projects-page">
 
-        <h3>Weather App</h3>
+        <section class="projects-header">
 
-        <p>
-            Weather application using API
-            to display real-time weather data.
-        </p>
+            <h1>My Projects</h1>
 
-        <span>
-            JavaScript • API
-        </span>
+            <p>
+                Manage your projects and track your development journey.
+            </p>
 
-        <p>Status: Completed</p>
-
-    </div>
+        </section>
 
 
-</section>
-</main>
+        <section class="add-project">
+
+            <button id="addProjectBtn">
+                Add New Project
+            </button>
+
+        </section>
+
+
+        <div class="projects-layout">
+
+            <!-- FORM WILL APPEAR HERE -->
+
+            <div id="projectFormContainer"></div>
+
+
+            <!-- PROJECTS WILL APPEAR HERE -->
+
+            <section class="projects-list" id="projectsList"></section>
+
+        </div>
+
+    </main>
+
+
+    <script src="../projects.js"></script>
+
 </body>
 
 </html>
