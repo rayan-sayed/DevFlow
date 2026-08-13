@@ -108,3 +108,7 @@ addtaskBtn.addEventListener("click", function () {
 // Display saved tasks when page loads
 
 renderTasks();
+
+
+//---------------------------------------------------------//
+
