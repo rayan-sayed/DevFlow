@@ -70,3 +70,12 @@ tasks.forEach(function(task){
 if(tasks.length === 0){
     todayTasksSection.style.display = "none";
 }
+
+
+//Start Learning Button Js
+
+const startLearning = document.querySelector("#startLearning");
+
+startLearning.addEventListener("click", function(){
+    window.location.href = "pages/roadmap.html";
+});
