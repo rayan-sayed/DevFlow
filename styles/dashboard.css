@@ -1,0 +1,182 @@
+/* Welcome Section CSS */
+
+.dashboard {
+    padding: 30px;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e2e8f0;
+}
+
+.welcome h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.start {
+    background: #09576d;
+    color: #0f2027;
+    margin-top: 20px;
+    height: 35px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start:hover {
+    background: #ffffff;
+    color: #203a43;
+    transform: translateY(-3px);
+}
+
+/* Statistic Card CSS */
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e2e8f0;
+    padding: 25px;
+    border-radius: 20px;
+    flex: 1;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Recent Projects CSS */
+
+.recent-projects {
+    margin-top: 40px;
+}
+
+.recent-projects h2 {
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e2e8f0;
+    padding: 25px;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 250px;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-card span {
+    font-size: 14px;
+    color: #8e9a9a;
+}
+
+/* Today Tasks CSS */
+
+.today-tasks {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.today-tasks h2 {
+    margin-bottom: 20px;
+}
+
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-card {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+    margin: 20px;
+}
+
+.task-card:hover {
+    transform: translateX(8px);
+}
+
+.task-card h3 {
+    margin: 0;
+}
+
+.task-card p {
+    margin: 0;
+    color: #8e9a9a;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+
+    .stat {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stat div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .project-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .task-card {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .task-actions {
+        justify-content: center;
+    }
+}

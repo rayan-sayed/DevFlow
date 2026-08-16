@@ -1,0 +1,71 @@
+/* Roadmap Page CSS */
+
+.roadmap-page {
+    padding: 40px;
+    text-align: center;
+}
+
+.roadmap-header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.roadmap-header p {
+    color: #cbd5e1;
+    margin-bottom: 40px;
+}
+
+.roadmap-section {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.roadmap-section h2 {
+    margin-bottom: 20px;
+    color: #00c6ff;
+}
+
+.roadmap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.roadmap-item {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #e2e8f0;
+    padding: 20px 25px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.roadmap-item:hover {
+    transform: translateX(8px);
+}
+
+.completed {
+    color: #22c55e;
+}
+
+.progress {
+    color: #00c6ff;
+}
+
+.pending {
+    color: #94a3b8;
+}
+@media (max-width: 768px) {
+
+    .roadmap-item {
+        padding: 15px;
+    }
+
+    .roadmap-section {
+        width: 90%;
+    }
+}
