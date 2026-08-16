@@ -686,6 +686,7 @@ body {
 
 .project-status.completed {
     color: #22c55e;
+    background-color: transparent;
 }
 
 .status-btn {
@@ -729,25 +730,3 @@ body {
     opacity: 0.9;
 }
 
-.note-buttons {
-    display: flex;
-    gap: 8px;
-    margin-top: 15px;
-}
-
-.note-buttons button {
-    padding: 8px 14px;
-    border: none;
-    border-radius: 6px;
-    color: white;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.note-buttons .edit-note {
-    background: #2563eb;
-}
-
-.note-buttons .delete-note {
-    background: #dc2626;
-}
