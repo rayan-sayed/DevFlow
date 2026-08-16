@@ -22,6 +22,7 @@ DevFlow is a frontend dashboard designed to help software engineers and Computer
 
 ## Project Structure
 
+```text
 DEVFlow/
 │
 ├── JS/
@@ -47,6 +48,7 @@ DEVFlow/
 │   └── notes.css
 │
 └── README.md
+```
 
 ## What I Learned
 
