@@ -688,8 +688,6 @@ body {
     color: #22c55e;
 }
 
-
-
 .status-btn {
     border: none;
     padding: 8px 16px;
@@ -729,4 +727,27 @@ body {
 .status-btn:hover {
     transform: translateY(-2px);
     opacity: 0.9;
+}
+
+.note-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.note-buttons button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.note-buttons .edit-note {
+    background: #2563eb;
+}
+
+.note-buttons .delete-note {
+    background: #dc2626;
 }
