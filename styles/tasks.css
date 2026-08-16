@@ -15,6 +15,9 @@
     color: #cbd5e1;
 }
 
+
+/* Add Task */
+
 .add-task {
     display: flex;
     justify-content: center;
@@ -25,22 +28,29 @@
 .add-task input {
     width: 300px;
     height: 40px;
+
     padding: 0 15px;
+
     border: none;
     border-radius: 20px;
     outline: none;
+
     font-size: 15px;
 }
 
 .add-task button {
     height: 40px;
     padding: 0 25px;
+
     border: none;
     border-radius: 20px;
+
     background: #00c6ff;
     color: #0f172a;
+
     font-weight: bold;
     cursor: pointer;
+
     transition: 0.3s ease;
 }
 
@@ -49,14 +59,72 @@
     transform: translateY(-3px);
 }
 
+
+/* Task Card */
+
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-card {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+    color: #e2e8f0;
+
+    padding: 20px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s ease;
+    margin: 20px;
+}
+
+.task-card:hover {
+    transform: translateX(8px);
+}
+
+.task-card h3 {
+    margin: 0;
+}
+
+.task-card p {
+    margin: 0;
+    color: #8e9a9a;
+    font-size: 18px;
+}
+
+
+/* Task Buttons */
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .task-actions button {
+    height: 40px;
+    min-width: 100px;
+
     padding: 8px 15px;
+
     border: none;
     border-radius: 15px;
+
     cursor: pointer;
+
+    font-size: 14px;
     font-weight: bold;
-    height: 40px;
-    width: 80px;
+
+    text-align: center;
+    white-space: nowrap;
+
+    transition: 0.3s ease;
 }
 
 .task-actions button:first-child {
@@ -69,6 +137,14 @@
     color: white;
 }
 
+.task-actions button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+
+/* Completed Task */
+
 .task-card.completed {
     opacity: 0.7;
 }
@@ -80,16 +156,18 @@
 .task-card.completed p {
     color: #22c55e;
 }
+
+
+/* Responsive */
+
 @media (max-width: 768px) {
 
-    .task-card {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
+    .tasks-page {
+        margin: 25px 15px;
     }
 
-    .task-actions {
-        justify-content: center;
+    .tasks-header h1 {
+        font-size: 30px;
     }
 
     .add-task {
@@ -100,5 +178,26 @@
     .add-task input {
         width: 90%;
         max-width: 400px;
+    }
+
+    .add-task button {
+        width: 160px;
+    }
+
+    .task-card {
+        flex-direction: column;
+        gap: 15px;
+
+        text-align: center;
+
+        margin: 15px 0;
+    }
+
+    .task-actions {
+        justify-content: center;
+    }
+
+    .task-actions button {
+        min-width: 100px;
     }
 }

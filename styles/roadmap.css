@@ -1,4 +1,4 @@
-/* Roadmap Page CSS */
+/* Roadmap Page */
 
 .roadmap-page {
     padding: 40px;
@@ -32,6 +32,8 @@
     gap: 15px;
 }
 
+/* Roadmap Item */
+
 .roadmap-item {
     background: linear-gradient(135deg, #141e30, #243b55);
     color: #e2e8f0;
@@ -48,6 +50,48 @@
     transform: translateX(8px);
 }
 
+/* Roadmap Status */
+
+.status-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Not Started */
+
+.status-btn.not-started {
+    background-color: #475569;
+    color: white;
+}
+
+/* In Progress */
+
+.status-btn.progress {
+    background-color: #f59e0b;
+    color: white;
+}
+
+/* Completed */
+
+.status-btn.completed {
+    background-color: #22c55e;
+    color: white;
+}
+
+/* Hover */
+
+.status-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Status Classes */
+
 .completed {
     color: #22c55e;
 }
@@ -58,14 +102,4 @@
 
 .pending {
     color: #94a3b8;
-}
-@media (max-width: 768px) {
-
-    .roadmap-item {
-        padding: 15px;
-    }
-
-    .roadmap-section {
-        width: 90%;
-    }
 }

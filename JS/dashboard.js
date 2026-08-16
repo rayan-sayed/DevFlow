@@ -77,5 +77,5 @@ if(tasks.length === 0){
 const startLearning = document.querySelector("#startLearning");
 
 startLearning.addEventListener("click", function(){
-    window.location.href = "pages/roadmap.html";
+    window.location.href = "roadmap.html";
 });

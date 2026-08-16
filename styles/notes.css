@@ -111,15 +111,3 @@
 .note-buttons .delete-note {
     background: #dc2626;
 }
-@media (max-width: 768px) {
-
-    .add-notes {
-        width: 90%;
-    }
-
-    .add-notes input,
-    .add-notes textarea {
-        width: 100%;
-        box-sizing: border-box;
-    }
-}

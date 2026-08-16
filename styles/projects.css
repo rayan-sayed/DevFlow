@@ -35,12 +35,7 @@
     transform: translateY(-3px);
 }
 
-.projects-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-}
-/* Projects Dynamic Form */
+/* Projects Layout */
 
 .projects-layout {
     display: grid;
@@ -49,6 +44,8 @@
     align-items: start;
     width: 100%;
 }
+
+/* Project Form */
 
 #projectFormContainer {
     width: 100%;
@@ -121,6 +118,45 @@
 .project-form button:last-of-type:hover {
     background: #94a3b8;
 }
+
+/* Projects List */
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* Project Card */
+
+.project-card {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #e2e8f0;
+    padding: 25px;
+    border-radius: 20px;
+    min-width: 250px;
+    transition: 0.3s ease;
+    text-align: left;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.project-card span {
+    font-size: 14px;
+    color: #8e9a9a;
+}
+
 /* Project Buttons */
 
 .project-card button {
@@ -150,6 +186,7 @@
     background: #8f2d38;
 }
 
+/* Project Status */
 
 .project-status {
     font-weight: bold;
@@ -165,7 +202,10 @@
 
 .project-status.completed {
     color: #22c55e;
+    background-color: transparent;
 }
+
+/* Status Button */
 
 .status-btn {
     border: none;
@@ -179,56 +219,28 @@
 
 /* Not Started */
 
-.not-started {
+.status-btn.not-started {
     background-color: #475569;
     color: white;
 }
 
-
 /* In Progress */
 
-.progress {
+.status-btn.progress {
     background-color: #f59e0b;
     color: white;
 }
 
-
 /* Completed */
 
-.completed {
+.status-btn.completed {
     background-color: #22c55e;
     color: white;
 }
 
-
-/* Hover */
+/* Status Button Hover */
 
 .status-btn:hover {
     transform: translateY(-2px);
     opacity: 0.9;
-}
-@media (max-width: 768px) {
-
-    .projects-list {
-        grid-template-columns: 1fr;
-        width: 90%;
-        margin: auto;
-    }
-
-    .project-card {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .projects-layout {
-        grid-template-columns: 1fr;
-    }
-
-    #projectFormContainer {
-        width: 100%;
-    }
-
-    #projectsList {
-        grid-template-columns: 1fr;
-    }
 }

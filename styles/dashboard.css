@@ -1,8 +1,10 @@
-/* Welcome Section CSS */
+/* Dashboard */
 
 .dashboard {
     padding: 30px;
 }
+
+/* Welcome Section */
 
 .welcome-section {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
@@ -44,7 +46,7 @@
     transform: translateY(-3px);
 }
 
-/* Statistic Card CSS */
+/* Statistic Card */
 
 .stat {
     display: flex;
@@ -67,7 +69,7 @@
     transform: translateY(-8px);
 }
 
-/* Recent Projects CSS */
+/* Recent Projects */
 
 .recent-projects {
     margin-top: 40px;
@@ -111,7 +113,7 @@
     color: #8e9a9a;
 }
 
-/* Today Tasks CSS */
+/* Today Tasks */
 
 .today-tasks {
     margin-top: 40px;
@@ -152,31 +154,4 @@
     margin: 0;
     color: #8e9a9a;
     font-size: 20px;
-}
-@media (max-width: 768px) {
-
-    .stat {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .stat div {
-        width: 80%;
-        text-align: center;
-    }
-
-    .project-card {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .task-card {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
-
-    .task-actions {
-        justify-content: center;
-    }
 }
