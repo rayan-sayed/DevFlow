@@ -1,4 +1,4 @@
-
+//statistics card JS
 const totalProjects = document.querySelector("#totalProjects");
 const totalTasks = document.querySelector("#totalTasks");
 const learningProgress = document.querySelector("#learningProgress");
@@ -23,4 +23,22 @@ if(roadmap.length > 0){
 }
 
 learningProgress.textContent = progress + "%";
+
+//Recent Projects Js
+
+const recentProjects = document.querySelector("#recentProjects");
+console.log(projects);
+
+projects.forEach(function(project){
+    const projectCard = document.createElement("div");
+    projectCard.className = "project-card";
+
+    projectCard.innerHTML=`
+    <h3>${project.name}</h3>
+    <p>${project.description}</p>
+    <span>${project.technologies}</span>`;
+
+
+    recentProjects.appendChild(projectCard);
+});
 
