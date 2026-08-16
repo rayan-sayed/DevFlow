@@ -687,3 +687,46 @@ body {
 .project-status.completed {
     color: #22c55e;
 }
+
+
+
+.status-btn {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Not Started */
+
+.not-started {
+    background-color: #475569;
+    color: white;
+}
+
+
+/* In Progress */
+
+.progress {
+    background-color: #f59e0b;
+    color: white;
+}
+
+
+/* Completed */
+
+.completed {
+    background-color: #22c55e;
+    color: white;
+}
+
+
+/* Hover */
+
+.status-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
