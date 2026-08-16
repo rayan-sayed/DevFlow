@@ -30,7 +30,7 @@ learningProgress.textContent = progress + "%";
 const recentProjects = document.querySelector("#recentProjects");
 const recentProjectsSection = document.querySelector("#recentProjectsSection");
 
-projects.forEach(function(project){
+projects.slice(-3).forEach(function(project){
     
     const projectCard = document.createElement("div");
     projectCard.className = "project-card";
@@ -54,7 +54,7 @@ if(projects.length === 0){
 const todayTasks = document.querySelector("#todayTasks");
 const todayTasksSection = document.querySelector("#todayTasksSection");
 
-tasks.forEach(function(task){
+tasks.slice(-3).forEach(function(task){
 
     const taskCard = document.createElement("div");
     taskCard.className = "task-card";
