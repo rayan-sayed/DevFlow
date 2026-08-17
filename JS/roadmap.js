@@ -23,6 +23,11 @@ function loadRoadmap() {
     const savedRoadmap = JSON.parse(localStorage.getItem("roadmap"));
 
     if (!savedRoadmap) {
+
+        statusButtons.forEach(function(button) {
+        button.textContent = "Pending";
+        button.className = "status-btn not-started";
+        });
         return;
     }
 
