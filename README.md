@@ -11,6 +11,22 @@ DevFlow is a frontend dashboard designed to help software engineers and Computer
 - Notes management
 - Data persistence using LocalStorage
 - Responsive design
+## Screenshots
+
+### Dashboard
+![DevFlow Dashboard](screenshots/dashboard.png)
+
+### Tasks
+![DevFlow Tasks](screenshots/tasks.png)
+
+### Projects
+![DevFlow Projects](screenshots/projects.png)
+
+### Roadmap
+![DevFlow Roadmap](screenshots/roadmap.png)
+
+### Notes
+![DevFlow Notes](screenshots/notes.png)
 
 ## Technologies
 
