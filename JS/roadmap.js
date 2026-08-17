@@ -54,8 +54,6 @@ function loadRoadmap() {
 
 
 statusButtons.forEach(function(button) {
-     button.textContent = "Pending";
-     button.className = "status-btn not-started"
 
     button.addEventListener("click", function() {
 
