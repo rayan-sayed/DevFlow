@@ -92,14 +92,17 @@
 
 /* Status Classes */
 
-.completed {
-    color: #22c55e;
+.status-btn.not-started {
+    background-color: #475569;
+    color: white;
 }
 
-.progress {
-    color: #00c6ff;
+.status-btn.progress {
+    background-color: #f59e0b;
+    color: white;
 }
 
-.pending {
-    color: #94a3b8;
+.status-btn.completed {
+    background-color: #22c55e;
+    color: white;
 }

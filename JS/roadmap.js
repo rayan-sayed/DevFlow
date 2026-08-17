@@ -30,7 +30,7 @@ function loadRoadmap() {
 
         button.textContent = savedRoadmap[index].status;
 
-        if (savedRoadmap[index].status === "Not Started") {
+        if (savedRoadmap[index].status === "Pending") {
 
             button.className = "status-btn not-started";
 
@@ -56,7 +56,7 @@ statusButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
 
-        if (button.textContent === "Not Started") {
+        if (button.textContent === "Pending") {
 
             button.textContent = "In Progress";
             button.className = "status-btn progress";
@@ -72,7 +72,7 @@ statusButtons.forEach(function(button) {
 
         else {
 
-            button.textContent = "Not Started";
+            button.textContent = "Pending";
             button.className = "status-btn not-started";
 
         }
